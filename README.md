@@ -4,9 +4,26 @@
 
 # Introduction
 This code can be used to efficiently handle authorization in a Flask application. It is fully decoupled from 
-authentication. Therefore, you can use any authentication method you want (Azure AD, username/password, etc.).
+authentication. Therefore, you can use any authentication method you want (Azure AD, username/password, etc.). This
+package is inspired by some existing open-source packages for authorization.
 
 # Installation
+The package can be installed using pip. Simply run the command below:
+
+```pip install ...```
+
+Python 3.11 and pyton 3.12 are supported.
+
+
+> **NOTE:** The wrapper indicating the Flask route should come <u>**before**</u> the wrapper for authorization. 
+> Otherwise, authorization will not be executed. For example:
+> 
+> ```python
+> @app.route("/")
+> @authorizer.requires_permission(user_can_view)
+> def hello_world():
+>     return "<p>Hello World!</p>"
+> ```
 
 
 # Benefits
