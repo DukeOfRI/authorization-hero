@@ -1,5 +1,5 @@
 <p>
-  <img src="https://github.com/DukeOfRI/flask-authorizer/actions/workflows/pipeline.yml/badge.svg" alt="Build" />
+  <img src="https://github.com/DukeOfRI/authorization/actions/workflows/pipeline.yml/badge.svg" alt="Build" />
   <img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black" />
 </p>
 
@@ -31,7 +31,7 @@ FastAPI support will be added in a future release.
 
 The package can be installed using pip. Simply run the command below.
 
-```pip install flask-authorizer```
+```pip install authorization```
 
 # How to use
 
