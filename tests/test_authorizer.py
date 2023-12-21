@@ -3,7 +3,7 @@ from enum import Enum, auto
 import pytest
 from flask import Flask, abort
 
-from authorization import Authorizer
+from authorization_hero import Authorizer
 
 
 class AuthorizationGroup(Enum):

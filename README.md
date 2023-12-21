@@ -1,9 +1,9 @@
 <p>
-  <img src="https://github.com/DukeOfRI/authorization/actions/workflows/pipeline.yml/badge.svg" alt="Build" />
+  <img src="https://github.com/DukeOfRI/authorization-hero/actions/workflows/pipeline.yml/badge.svg" alt="Build" />
   <img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black" />
 </p>
 
-# Authorization
+# Authorization-hero
 
 Add authorization to your Flask application in 1 line per endpoint!
 
@@ -31,7 +31,7 @@ FastAPI support will be added in a future release.
 
 The package can be installed using pip. Simply run the command below.
 
-```pip install authorization```
+```pip install authorization-hero```
 
 # How to use
 
@@ -46,7 +46,7 @@ For each endpoint in your application, add a decorator to check whether the user
 ```python
 from flask import Flask, abort
 
-from authorization import Authorizer
+from authorization_hero import Authorizer
 
 
 def flask_forbidden():
