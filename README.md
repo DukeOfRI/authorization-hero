@@ -46,7 +46,7 @@ For each endpoint in your application, add a decorator to check whether the user
 ```python
 from flask import Flask, abort
 
-from flask_authorizer import Authorizer
+from authorization import Authorizer
 
 
 def flask_forbidden():

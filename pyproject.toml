@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "flask-authorizer"
+name = "authorization"
 version = "0.1.0"
-description = "Flask extension for authorization"
+description = "Authorization in Flask"
 authors = ["DukeOfRI"]
 readme = "README.md"
 license = "MIT"
